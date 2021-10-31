@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css custom -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+
+    <title>Angin Ribut | Official Store</title>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container-lg">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/icon.png" width="50" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">Sign Up</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="btn btn-success px-4" href="#">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <div class="container-lg">
+        <div class="row" style="margin-top: 80px;">
+            <div class="col-lg-12">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>New Arrival on October 2021,</strong> check it out!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide mt-2" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-custom active">
+                    <img src="images/banner3.jpg" class="carousel-image d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item carousel-custom">
+                    <img src="images/banner2.jpg" class="carousel-image d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item carousel-custom">
+                    <img src="images/banner.jpg" class="carousel-image d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+        <!-- Carousel end -->
+
+        <!-- Content -->
+        <div class="row mt-5">
+            <div class="col-lg-12">
+                <h2>New Products</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="products-thumbnail">
+                        <div class="products-image" data-bs-toggle="modal" data-bs-target="#modalProducts-1" style="
+                            background-image: url('images/products-apple-watch.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Apple watch</h5>
+                        <p class="card-text">Rp. 2.199.999,-</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalProducts-1"
+                            class="btn btn-primary">Preview</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="products-thumbnail">
+                        <div class="products-image" data-bs-toggle="modal" data-bs-target="#modalProducts-2" style="
+                            background-image: url('images/products-headphone.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Headphone</h5>
+                        <p class="card-text">Rp. 1.599.999,-</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalProducts-2"
+                            class="btn btn-primary">Preview</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="products-thumbnail">
+                        <div class="products-image" data-bs-toggle="modal" data-bs-target="#modalProducts-3" style="
+                            background-image: url('images/products-mavic-kawe.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Drone</h5>
+                        <p class="card-text">Rp. 3.999.999,-</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalProducts-3"
+                            class="btn btn-primary">Preview</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="products-thumbnail">
+                        <div class="products-image" data-bs-toggle="modal" data-bs-target="#modalProducts-4" style="
+                            background-image: url('images/products-samsung-galaxy.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy</h5>
+                        <p class="card-text">Rp. 9.899.999,-</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalProducts-4"
+                            class="btn btn-primary">Preview</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="products-thumbnail">
+                        <div class="products-image" data-bs-toggle="modal" data-bs-target="#modalProducts-5" style="
+                            background-image: url('images/products-imac.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">I-mac 2021</h5>
+                        <p class="card-text">Rp. 35.999.999,-</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalProducts-5"
+                            class="btn btn-primary">Preview</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="products-thumbnail">
+                        <div class="products-image" data-bs-toggle="modal" data-bs-target="#modalProducts-6" style="
+                            background-image: url('images/products-robotic.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Robotic Asimo</h5>
+                        <p class="card-text">Rp. 15.799.999,-</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalProducts-6"
+                            class="btn btn-primary">Preview</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="products-thumbnail">
+                        <div class="products-image" data-bs-toggle="modal" data-bs-target="#modalProducts-1" style="
+                            background-image: url('images/products-apple-watch.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Apple watch</h5>
+                        <p class="card-text">Rp. 2.199.999,-</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalProducts-1"
+                            class="btn btn-primary">Preview</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="products-thumbnail">
+                        <div class="products-image" data-bs-toggle="modal" data-bs-target="#modalProducts-2" style="
+                            background-image: url('images/products-headphone.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Headphone</h5>
+                        <p class="card-text">Rp. 1.599.999,-</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalProducts-2"
+                            class="btn btn-primary">Preview</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="products-thumbnail">
+                        <div class="products-image" data-bs-toggle="modal" data-bs-target="#modalProducts-3" style="
+                            background-image: url('images/products-mavic-kawe.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Drone</h5>
+                        <p class="card-text">Rp. 3.999.999,-</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalProducts-3"
+                            class="btn btn-primary">Preview</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="products-thumbnail">
+                        <div class="products-image" data-bs-toggle="modal" data-bs-target="#modalProducts-4" style="
+                            background-image: url('images/products-samsung-galaxy.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy</h5>
+                        <p class="card-text">Rp. 9.899.999,-</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalProducts-4"
+                            class="btn btn-primary">Preview</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="products-thumbnail">
+                        <div class="products-image" data-bs-toggle="modal" data-bs-target="#modalProducts-5" style="
+                            background-image: url('images/products-imac.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">I-mac 2021</h5>
+                        <p class="card-text">Rp. 35.999.999,-</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalProducts-5"
+                            class="btn btn-primary">Preview</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="products-thumbnail">
+                        <div class="products-image" data-bs-toggle="modal" data-bs-target="#modalProducts-6" style="
+                            background-image: url('images/products-robotic.jpg');">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Robotic Asimo</h5>
+                        <p class="card-text">Rp. 15.799.999,-</p>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalProducts-6"
+                            class="btn btn-primary">Preview</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalProducts-1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Apple Watch</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="modal-thumbnail">
+                                    <div class="products-image" style="
+                                        background-image: url('images/products-apple-watch.jpg');">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Apple watch</h5>
+                                    <p class="card-text">Rp. 2.199.999,-</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalProducts-2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Headphone</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="modal-thumbnail">
+                                    <div class="products-image" style="
+                                        background-image: url('images/products-headphone.jpg');">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Headphone</h5>
+                                    <p class="card-text">Rp. 1.599.999,-</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalProducts-3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Drone</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="modal-thumbnail">
+                                    <div class="products-image" style="
+                                        background-image: url('images/products-mavic-kawe.jpg');">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Drone</h5>
+                                    <p class="card-text">Rp. 3.999.999,-</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalProducts-4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Samsung Galaxy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="modal-thumbnail">
+                                    <div class="products-image" style="
+                                        background-image: url('images/products-samsung-galaxy.jpg');">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Samsung Galaxy</h5>
+                                    <p class="card-text">Rp. 9.899.999,-</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalProducts-5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">I-Mac 2021</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="modal-thumbnail">
+                                    <div class="products-image" style="
+                                        background-image: url('images/products-imac.jpg');">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">I-mac 2021</h5>
+                                    <p class="card-text">Rp. 35.999.999,-</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalProducts-6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Robotic Asimo</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="modal-thumbnail">
+                                    <div class="products-image" style="
+                                        background-image: url('images/products-robotic.jpg');">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Robotic Asimo</h5>
+                                    <p class="card-text">Rp. 15.799.999,-</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content end -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Full name</label>
+                            <input type="text" class="form-control" name="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="feedback" class="form-label">Your Feedback</label>
+                            <textarea class="form-control" id="feedback" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-5">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 ms-auto align-self-end">
+                    <div class="row">
+                        <div class="col-lg-12 text-end">
+                            <p>Follow us on</p>
+                            <a href="">
+                                <img src="images/ig.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="images/fb.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="images/twitter.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 text-end">
+                            <p class="pt-4 pb-2">
+                                Website untuk belanja perlengkapan Gawai kamu semua, Let's Go
+                            </p>
+                            <p class="text-muted mb-5">
+                                &copy; 2021 Angin Ribut | Official Store
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+
+
+    <script src="vendor/bootstrap.min.js"></script>
+</body>
+
+</html>

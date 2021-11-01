@@ -298,7 +298,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn btn-success" onClick="buy()">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -326,7 +326,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn btn-success" onClick="buy()">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -354,7 +354,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn btn-success" onClick="buy()">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -382,7 +382,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn btn-success" onClick="buy()">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -410,7 +410,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn btn-success" onClick="buy()">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -438,7 +438,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn btn-success" onClick="buy()">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -450,6 +450,24 @@
     <!-- Footer -->
     <footer>
         <div class="container-lg">
+            <div class="row mb-2">
+                <h1>Ubah Warna Background</h1>
+                <div class="col-lg-4">
+                    <label for="" class="form-label">Color Picker</label>
+                </div>
+                <div class="col-lg-8">
+                    <input type="color" class="form-control form-control-color" id="bg-color">
+                </div>
+            </div>
+            <div class="row mb-5">
+                <h1>Ubah Warna Text</h1>
+                <div class="col-lg-4">
+                    <label for="" class="form-label">Color Picker</label>
+                </div>
+                <div class="col-lg-8">
+                    <input type="color" class="form-control form-control-color" id="text-color">
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-6">
                     <form>
@@ -500,7 +518,22 @@
     </footer>
     <!-- Footer end -->
 
+    <script>
+        function buy() {
+            alert("Yeay, Gawai kamu segera dikirmkan..")
+        }
 
+        var bgColor = document.getElementById('bg-color');
+        var txtColor = document.getElementById('text-color');
+
+        bgColor.addEventListener("change", (event) => {
+            document.body.style.backgroundColor = bgColor.value;
+        });
+
+        txtColor.addEventListener("change", (event) => {
+            document.body.style.color = txtColor.value;
+        });
+    </script>
 
     <script src="vendor/bootstrap.min.js"></script>
 </body>
